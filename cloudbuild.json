@@ -1,0 +1,16 @@
+{
+  "steps": [
+  {
+    "name": "bash",
+    "args": [
+      "echo",
+      "I am running in a private pool!"
+    ]
+  }
+  ],
+  "options": {
+    "pool": {
+      "name" : "projects/meshing-around/locations/us-central1/workerPools/pooling-around"
+    }
+  }
+}
