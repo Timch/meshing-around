@@ -9,8 +9,8 @@
   }
   ],
   "options": {
+    "logging": "CLOUD_LOGGING_ONLY",
     "pool": {
-      "logging": "CLOUD_LOGGING_ONLY",
       "name" : "projects/meshing-around/locations/us-central1/workerPools/pooling-around"
     }
   }
