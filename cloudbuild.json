@@ -4,14 +4,11 @@
     "name": "bash",
     "args": [
       "echo",
-      "I am running in a private pool!"
+      "https://github.com/Timch/meshing-around/edit/main/cloudbuild.json"
     ]
   }
   ],
   "options": {
-    "logging": "CLOUD_LOGGING_ONLY",
-    "pool": {
-      "name" : "projects/meshing-around/locations/us-central1/workerPools/pooling-around"
-    }
+    "logging": "CLOUD_LOGGING_ONLY"
   }
 }
